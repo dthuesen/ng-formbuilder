@@ -115,3 +115,6 @@ Note the regex pattern. There are thousand's different version around, but this 
 
 ```
 
+### Nice course about Angular 2 Form Validation on scotch.io:
+https://scotch.io/tutorials/angular-2-form-validation
+
