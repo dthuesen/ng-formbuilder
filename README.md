@@ -86,10 +86,11 @@ And in the constructor for the validation
     'username': [null, Validators.compose([Validators.required, Validators.minLength(3)])],
     'email': [null, Validators.compose([Validators.required, EmailValidator.invalidEmail])]
   });
+```
               ^   ^   ^   ^   ^   ^   ^   ^   ^   ^   ^   ^   ^   ^   ^   ^   ^   ^   ^  ^   
                                          the validation
                                          
-```
+
 
 ##### ...in the helper class `emailValidator.ts` (file):
 Note the regex pattern. There are thousand's different version around, but this works well. 
